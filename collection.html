@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer">
+
+    <title>MetroRide</title>
+</head>
+<body>
+    <!----------------------------- NAVBAR ------------------->
+    <nav>
+        <a href="index.html" class="brand">
+            <h1>Metro<b class="accent">Ride</b></h1>
+        </a>
+        <div class="menu">
+            <div class="btn">
+                <i class="fas fa-times close-btn"></i>
+            </div>
+            <a href="index.html">HOME</a>
+            <a href="collection.html">CARS</a>
+            <a href="index.html#about">ABOUT</a>
+            <a href="index.html#testimonials">REVIEWS</a>
+        </div>
+
+        <button class="btn-2" onclick="window.location.href='contact.html'">Get Started</button>
+
+        <div class="btn">
+            <i class="fas fa-bars menu-btn"></i>
+        </div>
+    </nav>
+    <!-------------------------- NAVBAR END ------------------>
+    <!-----------------------Collection Page  --------------------->
+    <section class="collection" id="collection-page">
+        <!-- sedans -->
+        <div class="collection-category">
+            <h1>Sedans</h1>
+            <hr>
+            <div class="collection-container">
+                <!-- car1 -->
+                <div class="collection-car-item" id="collection-car-item-page">
+                    <img src="img1.jpg" class="col-car" alt="img" id="collection-page-img">
+                    <div class="car-info-container">
+                        <div class="car-info">
+                            <div class="car-price">
+                                <h5>$600</h5>
+                                <h6>/hour</h6>
+                            </div>
+                            <div class="car-location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <h6>Madagascar</h6>
+                            </div>
+                        </div>
+                        <h2>Fiat Duna 1.2 con gas</h2>
+                        <button class="btn-2 btn-car btn-collection-page" onclick="window.location.href='contact.html'">Book Now</button>
+                    </div>
+                </div>
+                <!-- car2 -->
+                <div class="collection-car-item" id="collection-car-item-page">
+                    <img src="img2.webp" class="col-car" alt="img" id="collection-page-img">
+                    <div class="car-info-container">
+                        <div class="car-info">
+                            <div class="car-price">
+                                <h5>$7.000</h5>
+                                <h6>/minute</h6>
+                            </div>
+                            <div class="car-location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <h6>Bariloche</h6>
+                            </div>
+                        </div>
+                        <h2>Fiat Chronos 1.0 a gas</h2>
+                        <button class="btn-2 btn-car btn-collection-page" onclick="window.location.href='contact.html'">Book Now</button>
+                    </div>
+                </div>
+                <!-- car3 -->
+                <div class="collection-car-item" id="collection-car-item-page">
+                    <img src="img3.jpg" class="col-car" alt="img" id="collection-page-img">
+                    <div class="car-info-container">
+                        <div class="car-info">
+                            <div class="car-price">
+                                <h5>$2.00</h5>
+                                <h6>/milisecond</h6>
+                            </div>
+                            <div class="car-location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <h6>Viena</h6>
+                            </div>
+                        </div>
+                        <h2>Renault 12 1.4</h2>
+                        <button class="btn-2 btn-car btn-collection-page" onclick="window.location.href='contact.html'">Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Sport car -->
+        <div class="collection-category">
+            <h1>Sport Car</h1>
+            <hr>
+            <div class="collection-container">
+                <!-- car1 -->
+                <div class="collection-car-item" id="collection-car-item-page">
+                    <img src="img4.jpg" class="col-car" alt="img" id="collection-page-img">
+                    <div class="car-info-container">
+                        <div class="car-info">
+                            <div class="car-price">
+                                <h5>$12.25M</h5>
+                                <h6>/year</h6>
+                            </div>
+                            <div class="car-location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <h6>point Nemo</h6>
+                            </div>
+                        </div>
+                        <h2>kayak</h2>
+                        <button class="btn-2 btn-car btn-collection-page" onclick="window.location.href='contact.html'">Book Now</button>
+                    </div>
+                </div>
+                <!-- car2 -->
+                <div class="collection-car-item" id="collection-car-item-page">
+                    <img src="img5.webp" class="col-car" alt="img" id="collection-page-img">
+                    <div class="car-info-container">
+                        <div class="car-info">
+                            <div class="car-price">
+                                <h5>$FREE</h5>
+                                <h6>A whole life</h6>
+                            </div>
+                            <div class="car-location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <h6>SUN</h6>
+                            </div>
+                        </div>
+                        <h2>SpaceX Starship</h2>
+                        <button class="btn-2 btn-car btn-collection-page" onclick="window.location.href='contact.html'">Book Now</button>
+                    </div>
+                </div>
+                <!-- car3 -->
+                <div class="collection-car-item" id="collection-car-item-page">
+                    <img src="img6.webp" class="col-car" alt="img" id="collection-page-img">
+                    <div class="car-info-container">
+                        <div class="car-info">
+                            <div class="car-price">
+                                <h5>$1.2B</h5>
+                                <h6>/Day</h6>
+                            </div>
+                            <div class="car-location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <h6>Monaco</h6>
+                            </div>
+                        </div>
+                        <h2>Electric Scooter Xiaomi</h2>
+                        <button class="btn-2 btn-car btn-collection-page" onclick="window.location.href='contact.html'">Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- SUVs  -->
+        <div class="collection-category">
+            <h1>SUVs</h1>
+            <hr>
+            <div class="collection-container">
+                <!-- car1 -->
+                <div class="collection-car-item" id="collection-car-item-page">
+                    <img src="img7.webp" class="col-car" alt="img" id="collection-page-img">
+                    <div class="car-info-container">
+                        <div class="car-info">
+                            <div class="car-price">
+                                <h5>A Soul</h5>
+                                <h6>/Week</h6>
+                            </div>
+                            <div class="car-location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <h6>Hell</h6>
+                            </div>
+                        </div>
+                        <h2>Fiat Multipla</h2>
+                        <button class="btn-2 btn-car btn-collection-page" onclick="window.location.href='contact.html'">Book Now</button>
+                    </div>
+                </div>
+                <!-- car2 -->
+                <div class="collection-car-item" id="collection-car-item-page">
+                    <img src="img8.jpg" class="col-car" alt="img" id="collection-page-img">
+                    <div class="car-info-container">
+                        <div class="car-info">
+                            <div class="car-price">
+                                <h5>A Hug</h5>
+                                <h6>/Year</h6>
+                            </div>
+                            <div class="car-location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <h6>1995,Hollywood,USA</h6>
+                            </div>
+                        </div>
+                        <h2>DeLorean</h2>
+                        <button class="btn-2 btn-car btn-collection-page" onclick="window.location.href='contact.html'">Book Now</button>
+                    </div>
+                </div>
+                <!-- car3 -->
+                <div class="collection-car-item" id="collection-car-item-page">
+                    <img src="img9.jpg" class="col-car" alt="img" id="collection-page-img">
+                    <div class="car-info-container">
+                        <div class="car-info">
+                            <div class="car-price">
+                                <h5>Kiss(with tongue)</h5>
+                                <h6></h6>
+                            </div>
+                            <div class="car-location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <h6>Wherever Tony Hawk lives</h6>
+                            </div>
+                        </div>
+                        <h2>TonyHawk Skateboard</h2>
+                        <button class="btn-2 btn-car btn-collection-page" onclick="window.location.href='contact.html'">Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-----------------------Collection Page END  --------------------->
+    <!-----------------------Footer section  --------------------->
+    <footer class="collection-footer">
+        <div class="callout">
+            <h2>Let's drive with MetroRide Today!</h2>
+            <p class="callout-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore rerum.
+            </p>
+            <div class="callout-buttons">
+                <button class="btn-2 btn-callout" onclick="window.location.href='collection.html'"><p>Checks Our Cars</p>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </button>
+                <button class="btn-2 btn-callout btn-callout-black" onclick="window.location.href='contact.html'"><p>Book Now</p>
+                    <i class="fa-solid fa-phone"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <a href="/" class="footer-brand">Metro<b class="accent">Ride</b></a>
+            <div class="socials">
+                <a href="/" class="social-item">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="/" class="social-item">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="/" class="social-item">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="/" class="social-item">
+                    <i class="fa-brands fa-telegram"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <!-----------------------Footer section END --------------------->
+</body>
+</html>
